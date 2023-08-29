@@ -16,7 +16,7 @@ Using a dataset with information related to Uber trips, we aim to analyse the re
 •	Usage of uber service for rural or city?    
 •	Fair/cost vs pick-up times - peak hours/days of week and/or public holidays etc.  
 ## Datasets to be used
-•	uber.csv
+•	uber.csv  
 •	OpenweatherAPI  
 •	Geoapify  
 ## Rough breakdown of tasks
