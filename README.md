@@ -12,7 +12,7 @@ Using a dataset with information related to Uber trips in New York City from 200
 3. Summary of the main values per year  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/029b0643-c22f-4fa6-93ea-76d1c02d7f11)  
 4. Boxplot to show the distribution of the data after it was cleaned   
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/ff754e50-fb11-49a9-b489-7f7bd6147334)
+![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)  
 ## Research question to answer  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
 @Lee  
