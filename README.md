@@ -33,8 +33,9 @@ As shown in the graph below, the number of trips per season is consistent throug
 ### 7. Is the usage of Uber mainly urban or rural?    
 @Damian  
 When suggesting this question, we had not spent enough time working with the data and did not realise that the dataset was for trips done in New York City only. All the coordinates are points within the urban area of the city. Instead of characterising the data by rural or urban, we decided to use the Geoapify service to assign an administrative detail to each coordinate and check which specific area uses Uber the most. As it is a 200k rows dataset, we used only 2015 values. 
-As it is shown below, we plotted the distribution of Uber trips per administrative category of New York City. 
-IMAGE AND RESULTS!!!!!!
+As it is shown below, we plotted the distribution of Uber trips per administrative category of New York City. 77% of the dataset is data from Manhattan.   
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/01cbbb36-cac2-49d9-a789-81ba6388809d)
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/2ea5b6f6-1fe0-4bca-ba65-01ad0abd3f6f)
 ### 8. Does the cost/usage of Uber depend on the pick-up times? (peak hours, weekdays, weekends, etc.)  
 @Julian  
 Considerations: For the purpose of this analysis, we considered weekdays as the period between Monday and Thursday. Therefore, the weekend is the period between Friday and Sunday.  
