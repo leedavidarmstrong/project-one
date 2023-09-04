@@ -1,4 +1,4 @@
-# Relation between Uber usage and weather conditions/season in New York city 2009-2015  
+# Characterisation of Uber usage and its relation with weather conditions/season in New York city 2009-2015  
 ## Team Members
 •	Lee Amstrong  
 •	Damian Kifuso  
@@ -49,5 +49,7 @@ fig2 and fig3
 •	OpenweatherAPI  
 •	Geoapify  
 ## Conclusions
- 
+## References
+https://www.tutorialspoint.com/how-to-change-bar-chart-values-to-percentages-in-matplotlib  
+https://stackoverflow.com/questions/33151463/how-to-bin-time-in-a-pandas-dataframe
    
