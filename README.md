@@ -11,12 +11,12 @@ Using a dataset with information related to Uber trips in New York City from 200
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
 @Lee and @Julian  
 Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years having Winter with the lowest average price and Authum with the highest average price. The difference between the highest and the lowest price paid is around XXXX per year.  
-![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/0f9455b8-e9a2-44ab-9c1c-3bcea5742175)  
+![Fig7](https://github.com/leedavidarmstrong/project-one/assets/132871396/99d0e291-1fd5-43bc-b259-e017f7f34ecc)
 ### 3. What is the relation between the number of passengers and the weather conditions/season when using Uber?    
 @Lee and @Julian  
 
 Finally, we analysed the relation between the number of passengers and the season. From the graph below, we can conclude that there is no relation between the season and the number of passengers per Uber trip. The values are quite similar independently of the season and the year.  
-![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/5faf1dee-162e-400c-9f28-b42042d03e9b)  
+![Fig8](https://github.com/leedavidarmstrong/project-one/assets/132871396/e25d0868-4da4-4a77-ad9e-62dc0c606221)
 ### 4. Is there a relation between the number of passengers and the distance travelled when using Uber?   
 @Damian  
 As shown in the image below, and by getting a 0.0 value for the correlation factor, we can conclude there is no relation between the number of passengers and the distance of the Uber trips.  
