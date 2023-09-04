@@ -44,7 +44,7 @@ As it is shown in the graph below, the usage of Uber is consistently showing aro
 To go deeper into this analysis, the graph below shows the usage of Uber per day independently of the year. As expected, Friday is the day of the week that users use Uber the most.  
 ![Fig12](https://github.com/leedavidarmstrong/project-one/assets/132871396/2b21d5ac-8a0e-4aed-905f-6b8816589323)  
 Additionally, the price paid during the weekends is consistently higher for all the years as shown on the graph below.  
-![Fig10](https://github.com/leedavidarmstrong/project-one/assets/132871396/6cf73c03-958c-425f-a861-7a4bcf43c01c)
+![Fig10](https://github.com/leedavidarmstrong/project-one/assets/132871396/6cf73c03-958c-425f-a861-7a4bcf43c01c)  
 Furthermore, having Friday as the day of the week with higher Uber trips, we analyse the relation between the price and the distance on Friday. The scatter plots below, show that the price during the day is slightly higher than at night. For instance, a 10km trip will cost around $22.11 during the night while during the day it will cost $23.2, 6% more.   
 ![Fig4](https://github.com/leedavidarmstrong/project-one/assets/132871396/b76bb0fc-291e-419e-9dc2-62c2f17687e9)
 ![Fig3](https://github.com/leedavidarmstrong/project-one/assets/132871396/85a355f6-a606-4e3e-b5ad-87c47c8325a2)  
