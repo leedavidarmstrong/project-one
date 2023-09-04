@@ -4,13 +4,21 @@
 •	Damian Kifuso  
 •	Julian Ravelo
 ## Project description
-Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Through summary tables and graphs, we were able to clean the data and answer the questions below.  
+Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Through summary tables and graphs, we were able to clean the data and answer the questions below. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
+1. The first 5 rows of the original dataset (200k rows)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9e215144-ac37-4a64-b087-006915c729b0)  
+2. The first 5 rows after the dataset was cleaned and some columns of interest were added (177k rows)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/5e92514b-8f8c-4a2b-84f4-26b0d445acec)  
+3. Summary of the main values per year  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/029b0643-c22f-4fa6-93ea-76d1c02d7f11)  
+4. Boxplot to show the distribution of the data after it was cleaned   
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/ff754e50-fb11-49a9-b489-7f7bd6147334)
 ## Research question to answer  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
 @Lee  
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
 @Lee and @Julian  
-Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years having Winter with the lowest average price and Authum with the highest average price. The difference between the highest and the lowest price paid is around XXXX per year.  
+Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. The difference between the highest and the lowest price paid is around XXXX per year.  
 ![Fig7](https://github.com/leedavidarmstrong/project-one/assets/132871396/99d0e291-1fd5-43bc-b259-e017f7f34ecc)
 ### 3. What is the relation between the number of passengers and the weather conditions/season when using Uber?    
 @Lee and @Julian  
@@ -48,7 +56,9 @@ Additionally, the price paid during the weekends is consistently higher for all 
 Furthermore, having Friday as the day of the week with higher Uber trips, we analyse the relation between the price and the distance on Friday. The scatter plots below, show that the price during the day is slightly higher than at night. For instance, a 10km trip will cost around $22.11 during the night while during the day it will cost $23.2, 6% more.   
 ![Fig4](https://github.com/leedavidarmstrong/project-one/assets/132871396/b76bb0fc-291e-419e-9dc2-62c2f17687e9)
 ![Fig3](https://github.com/leedavidarmstrong/project-one/assets/132871396/85a355f6-a606-4e3e-b5ad-87c47c8325a2)  
-This result was quite surprising as we expected to have higher rates for Friday night trips. Therefore, we bin the data per period during the day and the result was the expected. The average price paid for an Uber trip between midnight and 6 a.m. is $9.54, 7% higher than the cheapest period of time which is between 6 a.m. and mid-day. The results on the linear regressions above might be explained by the number of trips done during the day as this value is 7% higher than the total number of trips done at night. Below is shown the distribution of the number of Uber trips on Friday.  
+This result was quite surprising as we expected to have higher rates for Friday night trips. Therefore, we bin the data per period during the day and the result was the expected. The average price paid for an Uber trip between midnight and 6 a.m. is $9.54, 7% higher than the cheapest period of time which is between 6 a.m. and mid-day. The results on the linear regressions above might be explained by the number of trips done during the day as this value is 7% higher than the total number of trips done at night.  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/d29ef0e0-7d94-4233-b35f-e918a2970cca)  
+Below is shown the distribution of the number of Uber trips on Friday.  
 ![Fig13](https://github.com/leedavidarmstrong/project-one/assets/132871396/88b68a21-897c-4109-aac9-76a853be38d5)  
 ## Datasets and APIs used
 •	uber.csv  
