@@ -4,7 +4,9 @@
 •	Damian Kifuso  
 •	Julian Ravelo
 ## Project description
-Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Through summary tables and graphs, we were able to clean the data and answer the questions below. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
+Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below the first 5 rows of that merged dataframe. 
+# (IMAGE OF LEE'S DATASET)
+Through summary tables and graphs, we were able to clean the data and answer the research questions. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
 1. The first 5 rows of the original dataset (200k rows)  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9e215144-ac37-4a64-b087-006915c729b0)  
 2. The first 5 rows after the dataset was cleaned and some columns of interest were added (177k rows)  
