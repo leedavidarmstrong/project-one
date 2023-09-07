@@ -20,7 +20,7 @@ Through summary tables and graphs, we were able to clean the data and answer the
 @Lee  
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
 @Lee and @Julian  
-Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. The difference between the highest and the lowest price paid is around XXXX per year. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
+Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
 ![Fig7](https://github.com/leedavidarmstrong/project-one/assets/132871396/99d0e291-1fd5-43bc-b259-e017f7f34ecc)
 ### 3. What is the relation between the number of passengers and the weather conditions/season when using Uber?    
 @Lee and @Julian  
@@ -33,7 +33,7 @@ As shown in the image below, and by getting a 0.0 value for the correlation fact
 ### 5. What is the relation between the weather conditions and the distance travelled when using Uber?
 @Lee and @Julian  
 
-Additionally, we analysed the average distance per trip depending on the season as shown in the graph below. We can conclude that the average shows similar behaviour in most of the years having Winter with the shortest average distance and Authum with the longest average distance. The difference between the longest and shortest distance is around XXXX per year.   
+Additionally, we analysed the average distance per trip depending on the season as shown in the graph below. We can conclude that the average shows similar behaviour in most of the years having Winter with the shortest average distance and Authum and Summer with the longest average distances.   
 ![Fig6](https://github.com/leedavidarmstrong/project-one/assets/132871396/a967c9a6-1c4b-4e4c-afe2-cea04b5ce9c7)   
 ### 6. What is the relation between the season and the usage of Uber?   
 As shown in the graph below, the number of trips per season is consistent through the years. Spring and Autumn are the seasons of the year with higher usage of Uber while Winter is the season with fewer trips.  
