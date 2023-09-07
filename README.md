@@ -4,8 +4,7 @@
 •	Damian Kifuso  
 •	Julian Ravelo
 ## Project description
-Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below the first 5 rows of that merged dataframe. 
-# (IMAGE OF LEE'S DATASET)
+Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used.  
 Through summary tables and graphs, we were able to clean the data and answer the research questions. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
 1. The first 5 rows of the original dataset (200k rows)  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9e215144-ac37-4a64-b087-006915c729b0)  
@@ -14,26 +13,27 @@ Through summary tables and graphs, we were able to clean the data and answer the
 3. Summary of the main values per year  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/029b0643-c22f-4fa6-93ea-76d1c02d7f11)  
 4. Boxplot to show the distribution of the data after it was cleaned   
-![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)  
+![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)
+5. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below a snap of the result.  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/181a64aa-ff5e-4c4f-bd24-7109ef5fecae)  
 ## Results  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
-@Lee  
+After working with the data we generated the bellow graphs that contains in the top-left subplot the total pickup events per day of the week which represents and displays the average number of uber rides, while the top-right subplot unveils the average temperature variations. In the bottom-left subplot average wind speed. Lastly, the bottom-right subplot combines the three. Presenting a view of the season's dynamics.showing the number of trips, the average temperature, and the wind speed per day of the week depending on the season.   
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/0e27428f-31de-4b47-8c8f-b9dc351d7d8a)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/3df7ae7f-6535-4b7b-8790-a937ab728679)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/66d2734b-c6ac-426f-83fe-f359e9982c4f)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/561018fa-0bfe-4bde-be46-8ae29265c9c2)  
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
-@Lee and @Julian  
-Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. The difference between the highest and the lowest price paid is around XXXX per year. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
+We analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
 ![Fig7](https://github.com/leedavidarmstrong/project-one/assets/132871396/99d0e291-1fd5-43bc-b259-e017f7f34ecc)
 ### 3. What is the relation between the number of passengers and the weather conditions/season when using Uber?    
-@Lee and @Julian  
-
-Finally, we analysed the relation between the number of passengers and the season. From the graph below, we can conclude that there is no relation between the season and the number of passengers per Uber trip. The values are quite similar independently of the season and the year.  
+We analysed the relation between the number of passengers and the season. From the graph below, we can conclude that there is no relation between the season and the number of passengers per Uber trip. The values are quite similar independently of the season and the year.  
 ![Fig8](https://github.com/leedavidarmstrong/project-one/assets/132871396/e25d0868-4da4-4a77-ad9e-62dc0c606221)
 ### 4. Is there a relation between the number of passengers and the distance travelled when using Uber?   
 As shown in the image below, and by getting a 0.0 value for the correlation factor, we can conclude there is no relation between the number of passengers and the distance of the Uber trips.  
 ![Fig11](https://github.com/leedavidarmstrong/project-one/assets/132871396/66ca5ae4-f147-4e11-9162-57167e848889)  
 ### 5. What is the relation between the weather conditions and the distance travelled when using Uber?
-@Lee and @Julian  
-
-Additionally, we analysed the average distance per trip depending on the season as shown in the graph below. We can conclude that the average shows similar behaviour in most of the years having Winter with the shortest average distance and Authum with the longest average distance. The difference between the longest and shortest distance is around XXXX per year.   
+We analysed the average distance per trip depending on the season as shown in the graph below. We can conclude that the average shows similar behaviour in most of the years having Winter with the shortest average distance and Authum and Summer with the longest average distances.   
 ![Fig6](https://github.com/leedavidarmstrong/project-one/assets/132871396/a967c9a6-1c4b-4e4c-afe2-cea04b5ce9c7)   
 ### 6. What is the relation between the season and the usage of Uber?   
 As shown in the graph below, the number of trips per season is consistent through the years. Spring and Autumn are the seasons of the year with higher usage of Uber while Winter is the season with fewer trips.  
@@ -59,10 +59,10 @@ This result was quite surprising as we expected to have higher rates for Friday 
 Below is shown the distribution of the number of Uber trips on Friday per period of time.  
 ![Fig13](https://github.com/leedavidarmstrong/project-one/assets/132871396/88b68a21-897c-4109-aac9-76a853be38d5)  
 ## Datasets and APIs used
-•	uber.csv  
+•	uber.csv from Kaggle   
 •	OpenweatherAPI  
 •	Geoapify  
 ## References
-https://stackoverflow.com/questions/33151463/how-to-bin-time-in-a-pandas-dataframe
-https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html#sphx-glr-gallery-lines-bars-and-markers-bar-label-demo-py  
-https://saturncloud.io/blog/how-to-calculate-distance-using-latitude-and-longitude-in-a-pandas-dataframe/#:~:text=Calculating%20Distance%20using%20Pandas%20Dataframe&text=We%20can%20now%20use%20the,longitude%20coordinates%20in%20our%20dataframe.
+- https://stackoverflow.com/questions/33151463/how-to-bin-time-in-a-pandas-dataframe  
+- https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html#sphx-glr-gallery-lines-bars-and-markers-bar-label-demo-py    
+- https://saturncloud.io/blog/how-to-calculate-distance-using-latitude-and-longitude-in-a-pandas-dataframe/#:~:text=Calculating%20Distance%20using%20Pandas%20Dataframe&text=We%20can%20now%20use%20the,longitude%20coordinates%20in%20our%20dataframe.   
