@@ -59,10 +59,10 @@ This result was quite surprising as we expected to have higher rates for Friday 
 Below is shown the distribution of the number of Uber trips on Friday per period of time.  
 ![Fig13](https://github.com/leedavidarmstrong/project-one/assets/132871396/88b68a21-897c-4109-aac9-76a853be38d5)  
 ## Datasets and APIs used
-•	uber.csv  
+•	uber.csv from Kaggle   
 •	OpenweatherAPI  
 •	Geoapify  
 ## References
-https://stackoverflow.com/questions/33151463/how-to-bin-time-in-a-pandas-dataframe
-https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html#sphx-glr-gallery-lines-bars-and-markers-bar-label-demo-py  
-https://saturncloud.io/blog/how-to-calculate-distance-using-latitude-and-longitude-in-a-pandas-dataframe/#:~:text=Calculating%20Distance%20using%20Pandas%20Dataframe&text=We%20can%20now%20use%20the,longitude%20coordinates%20in%20our%20dataframe.
+- https://stackoverflow.com/questions/33151463/how-to-bin-time-in-a-pandas-dataframe  
+- https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html#sphx-glr-gallery-lines-bars-and-markers-bar-label-demo-py    
+- https://saturncloud.io/blog/how-to-calculate-distance-using-latitude-and-longitude-in-a-pandas-dataframe/#:~:text=Calculating%20Distance%20using%20Pandas%20Dataframe&text=We%20can%20now%20use%20the,longitude%20coordinates%20in%20our%20dataframe.   
