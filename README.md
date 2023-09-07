@@ -19,10 +19,10 @@ Through summary tables and graphs, we were able to clean the data and answer the
 ## Results  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
 After working with the data we generated the bellow graphs that contains in the top-left subplot the total pickup events per day of the week which represents and displays the average number of uber rides, while the top-right subplot unveils the average temperature variations. In the bottom-left subplot average wind speed. Lastly, the bottom-right subplot combines the three. Presenting a view of the season's dynamics.showing the number of trips, the average temperature, and the wind speed per day of the week depending on the season.   
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/2b690266-96dd-45d0-a95b-0047b84aa16a)  
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/e171d32c-7fda-4e2f-8781-a6eb30bc63fa)  
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9bbb46ca-9fe2-4478-85ab-73bb5aa34091)  
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/0f36317a-495e-44dd-8dbc-31d11d8667e3)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/0e27428f-31de-4b47-8c8f-b9dc351d7d8a)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/3df7ae7f-6535-4b7b-8790-a937ab728679)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/561018fa-0bfe-4bde-be46-8ae29265c9c2)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/66d2734b-c6ac-426f-83fe-f359e9982c4f)  
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
 We analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
 ![Fig7](https://github.com/leedavidarmstrong/project-one/assets/132871396/99d0e291-1fd5-43bc-b259-e017f7f34ecc)
