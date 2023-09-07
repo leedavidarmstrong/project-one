@@ -4,8 +4,7 @@
 •	Damian Kifuso  
 •	Julian Ravelo
 ## Project description
-Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below the additional 2 columns with temperature and wind speed from on OpenWeatherAPI.  
-![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/181a64aa-ff5e-4c4f-bd24-7109ef5fecae)  
+Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used.  
 Through summary tables and graphs, we were able to clean the data and answer the research questions. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
 1. The first 5 rows of the original dataset (200k rows)  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9e215144-ac37-4a64-b087-006915c729b0)  
@@ -14,7 +13,9 @@ Through summary tables and graphs, we were able to clean the data and answer the
 3. Summary of the main values per year  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/029b0643-c22f-4fa6-93ea-76d1c02d7f11)  
 4. Boxplot to show the distribution of the data after it was cleaned   
-![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)  
+![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)
+5. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below a snap of the result.  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/181a64aa-ff5e-4c4f-bd24-7109ef5fecae)  
 ## Results  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
 After working with the data we generated the bellow graphs that contains in the top-left subplot the total pickup events per day of the week which represents and displays the average number of uber rides, while the top-right subplot unveils the average temperature variations. In the bottom-left subplot average wind speed. Lastly, the bottom-right subplot combines the three. Presenting a view of the season's dynamics.showing the number of trips, the average temperature, and the wind speed per day of the week depending on the season.   
