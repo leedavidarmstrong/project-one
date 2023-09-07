@@ -4,8 +4,8 @@
 •	Damian Kifuso  
 •	Julian Ravelo
 ## Project description
-Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below the first 5 rows of that merged dataframe. 
-# (IMAGE OF LEE'S DATASET)
+Using a dataset with information related to Uber trips in New York City from 2009 to mid-2015, we aim to characterise the usage of Uber. The main focus of the analysis is the relationship of the usage and price of the service with respect to the season, weather or time of the day/week the service is used. Because the original dataset did not include values of temperature or wind speed, we had to use the OpenWeatherAPI, adding two columns with this information. See below the additional 2 columns with temperature and wind speed from on OpenWeatherAPI.  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/181a64aa-ff5e-4c4f-bd24-7109ef5fecae)  
 Through summary tables and graphs, we were able to clean the data and answer the research questions. See below some general tables and graphs to show general aspects of the data and how it was cleaned and organised.  
 1. The first 5 rows of the original dataset (200k rows)  
 ![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9e215144-ac37-4a64-b087-006915c729b0)  
@@ -17,7 +17,13 @@ Through summary tables and graphs, we were able to clean the data and answer the
 ![Fig1](https://github.com/leedavidarmstrong/project-one/assets/132871396/29d1741e-da31-49c6-bfdd-cbe1401e6117)  
 ## Results  
 ### 1. Is the weather conditions a variable that influences Uber usage?  
-@Lee  
+After working with the data we generated the bellow graphs that contains in the top-left subplot the total pickup events per day of the week which represents and displays the average number of uber rides, while the top-right subplot unveils the average temperature variations. In the bottom-left subplot average wind speed. Lastly, the bottom-right subplot combines the three. Presenting a view of the season's dynamics.showing the number of trips, the average temperature, and the wind speed per day of the week depending on the season.   
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/c95c669e-208a-4b3b-8284-cb097afa6c36)
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/2b690266-96dd-45d0-a95b-0047b84aa16a)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/e171d32c-7fda-4e2f-8781-a6eb30bc63fa)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/9bbb46ca-9fe2-4478-85ab-73bb5aa34091)  
+![image](https://github.com/leedavidarmstrong/project-one/assets/132871396/0f36317a-495e-44dd-8dbc-31d11d8667e3)  
+
 ### 2. Is the price of an Uber trip dependent on the weather/season?  
 @Lee and @Julian  
 Furthermore, we analysed the average price per trip depending on the season as shown in the graph below. We can conclude that the average price shows a similar behaviour in most of the years with Winter being the lowest average price and Authum with the highest average price. Only 2012 shows a higher difference on the price paid in Autumn but the graph indicates that from 2012 the rates were increased.  
